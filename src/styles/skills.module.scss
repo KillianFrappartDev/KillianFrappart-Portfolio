@@ -9,18 +9,16 @@
   height: 100%;
   @include center;
   flex-wrap: wrap;
-  transform: translateY(-5%);
 
   @media screen and (max-width: 750px) {
     flex-direction: column;
 
     .set {
-      margin-top: 2rem;
+      margin-top: 1rem;
     }
   }
 
   @media screen and (max-width: 600px) {
-    transform: translateY(-10%);
     flex-wrap: nowrap;
   }
 }
@@ -29,6 +27,7 @@
   width: 45%;
   @include center;
   flex-direction: column;
+  transform: translateY(-20%);
 
   .title {
     color: #fff;
@@ -79,6 +78,10 @@
       height: 60px;
       margin: 0.6rem;
     }
+  }
+
+  @media screen and (max-width: 600px) {
+    transform: translateY(-30%);
   }
 
   @media screen and (max-width: 500px) {
