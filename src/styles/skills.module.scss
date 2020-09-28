@@ -12,10 +12,7 @@
 
   @media screen and (max-width: 750px) {
     flex-direction: column;
-
-    .set {
-      margin-top: 1rem;
-    }
+    justify-content: space-around;
   }
 
   @media screen and (max-width: 600px) {
