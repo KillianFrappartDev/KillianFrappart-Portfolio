@@ -38,16 +38,17 @@ $primary-color: #2196f3;
 
   @media screen and (max-width: 1000px) {
     width: 60px;
+    .list {
+      .line {
+        height: 35px;
+      }
 
-    .line {
-      height: 35px;
-    }
+      .item {
+        margin: 0.6rem 0;
 
-    .item {
-      margin: 0.6rem 0;
-
-      .icon {
-        font-size: 2rem;
+        .icon {
+          font-size: 2rem;
+        }
       }
     }
   }

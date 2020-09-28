@@ -3,11 +3,11 @@ import { Link } from 'gatsby';
 
 import navStyles from '../styles/Nav.module.scss';
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <nav>
       <ul className={navStyles.list}>
-        <li className={navStyles.hamburger}>
+        <li onClick={props.click} className={navStyles.hamburger}>
           <i class="fas fa-bars"></i>
         </li>
         <li className={navStyles.item}>
