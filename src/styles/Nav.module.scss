@@ -1,0 +1,31 @@
+$primary-color: #2196f3;
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.item {
+  margin: 0 2rem 0 0;
+  padding-right: 2rem;
+  border-right: solid 1px #fff;
+
+  &:last-of-type {
+    border-right: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
