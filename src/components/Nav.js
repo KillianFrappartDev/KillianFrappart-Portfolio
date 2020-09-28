@@ -7,6 +7,9 @@ const Nav = () => {
   return (
     <nav>
       <ul className={navStyles.list}>
+        <li className={navStyles.hamburger}>
+          <i class="fas fa-bars"></i>
+        </li>
         <li className={navStyles.item}>
           <Link to="/">Home</Link>
         </li>
