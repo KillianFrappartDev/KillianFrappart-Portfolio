@@ -5,12 +5,16 @@ $primary-color: #2196f3;
   bottom: 10px;
   right: 10px;
   width: 100px;
-  height: 300px;
+
+  @media screen and (max-width: 1000px) {
+    width: 60px;
+  }
 }
 
 .list {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -18,15 +22,23 @@ $primary-color: #2196f3;
 
 .item {
   margin: 1rem 0;
-}
+  .icon {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 3rem;
 
-.icon {
-  color: #fff;
-  opacity: 0.8;
+    &:hover {
+      color: $primary-color;
+      cursor: pointer;
+    }
+  }
 
-  &:hover {
-    color: $primary-color;
-    cursor: pointer;
+  @media screen and (max-width: 1000px) {
+    margin: 0.6rem 0;
+
+    .icon {
+      font-size: 2rem;
+    }
   }
 }
 
@@ -35,4 +47,8 @@ $primary-color: #2196f3;
   height: 50px;
   width: 1px;
   opacity: 0.8;
+
+  @media screen and (max-width: 1000px) {
+    height: 35px;
+  }
 }

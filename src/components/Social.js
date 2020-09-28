@@ -21,7 +21,7 @@ const Social = () => {
               href="https://www.linkedin.com/in/killian-frappart-720a538b/"
               target="blank"
               className={socialStyles.icon}>
-              <i class="fab fa-linkedin fa-3x"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
           </li>
           <li className={socialStyles.item}>
@@ -29,7 +29,7 @@ const Social = () => {
               href="https://dev.to/killianfrappartdev"
               target="blank"
               className={socialStyles.icon}>
-              <i class="fab fa-dev fa-3x"></i>
+              <i className="fab fa-dev"></i>
             </a>
           </li>
           <li className={socialStyles.item}>
@@ -37,7 +37,7 @@ const Social = () => {
               href="https://github.com/KillianFrappartDev"
               target="blank"
               className={socialStyles.icon}>
-              <i class="fab fa-github fa-3x"></i>
+              <i className="fab fa-github"></i>
             </a>
           </li>
           <li className={socialStyles.line}></li>
