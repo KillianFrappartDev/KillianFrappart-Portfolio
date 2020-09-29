@@ -8,7 +8,7 @@ const Nav = (props) => {
     <nav>
       <ul className={navStyles.list}>
         <li onClick={props.click} className={navStyles.hamburger}>
-          <i class="fas fa-bars"></i>
+          <i className="fas fa-bars"></i>
         </li>
         <li className={navStyles.item}>
           <Link to="/">Home</Link>
