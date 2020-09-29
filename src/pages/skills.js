@@ -53,18 +53,34 @@ const Skills = () => {
     setIsOpen(true);
   };
 
+  const closeHandler = () => {
+    setCurrent('');
+    setIsOpen(false);
+  };
+
   return (
     <Background>
       <section className={skillsStyles.container}>
         {!isOpen ? (
-          <ul>
-            <li onClick={openHandler}>UI/UX</li>
-            <li onClick={openHandler}>Front-End</li>
-            <li onClick={openHandler}>Back-End</li>
-            <li onClick={openHandler}>Tools</li>
+          <ul className={skillsStyles.list}>
+            <li className={skillsStyles.item} onClick={openHandler}>
+              UI/UX
+            </li>
+            <li className={skillsStyles.item} onClick={openHandler}>
+              Front-End
+            </li>
+            <li className={skillsStyles.item} onClick={openHandler}>
+              Back-End
+            </li>
+            <li className={skillsStyles.item} onClick={openHandler}>
+              Tools
+            </li>
           </ul>
         ) : (
-          <SkillSet item={SKILLS.filter((item) => item.title === current)} />
+          <SkillSet
+            cancel={closeHandler}
+            item={SKILLS.filter((item) => item.title === current)}
+          />
         )}
       </section>
     </Background>

@@ -1,3 +1,5 @@
+$primary-color: #2196f3;
+
 .container {
   position: absolute;
   top: 50%;
@@ -7,4 +9,21 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  color: #fff;
+  font-size: 2rem;
+  margin: 2rem 0;
+
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
 }
