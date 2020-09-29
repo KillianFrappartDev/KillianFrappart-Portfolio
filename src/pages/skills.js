@@ -3,6 +3,42 @@ import React from 'react';
 import Background from '../components/Background';
 import skillsStyles from '../styles/skills.module.scss';
 
+const SKILLS = [
+  {
+    title: 'UI/UX',
+    items: [
+      { name: 'HTML', url: 'html-5.svg' },
+      { name: 'CSS', url: 'css.svg' },
+      { name: 'Bootstrap', url: 'Bootstrap.svg' },
+      { name: 'Material UI', url: 'mui.svg' },
+    ],
+  },
+  {
+    title: 'Front-End',
+    items: [
+      { name: 'JavaScript', url: 'js.svg' },
+      { name: 'React', url: 'react.svg' },
+      { name: 'Redux', url: 'redux.svg' },
+    ],
+  },
+  {
+    title: 'Back-End',
+    items: [
+      { name: 'Node', url: 'node.svg' },
+      { name: 'SQL', url: 'sql.svg' },
+      { name: 'Mongo', url: 'mongo.svg' },
+    ],
+  },
+  {
+    title: 'Tools',
+    items: [
+      { name: 'NPM', url: 'npm.svg' },
+      { name: 'Git', url: 'git.svg' },
+      { name: 'Bash', url: 'bash.svg' },
+    ],
+  },
+];
+
 const skills = () => {
   return (
     <Background>
