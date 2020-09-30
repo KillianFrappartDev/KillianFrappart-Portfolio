@@ -1,8 +1,17 @@
+$primary-color: #2196f3;
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .title {
@@ -11,9 +20,24 @@
   margin: 0;
 }
 
+.cancel {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+  height: 40px;
+
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
+
 .text {
   color: #fff;
-  font-size: 1.4rem;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  letter-spacing: 1.5px;
   margin: 2rem auto 5rem;
 }
 

@@ -7,7 +7,8 @@ import skillsStyles from '../styles/skills.module.scss';
 const SKILLS = [
   {
     title: 'UI/UX',
-    text: 'I like UI/UX I like UI/UX I like UI/UX I like UI/UX',
+    text:
+      "I don't like designing myself but I have great integration skills, I prefer writing CSS code myself with CSS pre-processors (SCSS) than using CSS frameworks but I already worked with both Bootstrap and Material UI and I know how to implement and customize their components.",
     items: [
       { name: 'HTML', url: 'html-5.svg' },
       { name: 'CSS', url: 'css.svg' },
@@ -17,7 +18,8 @@ const SKILLS = [
   },
   {
     title: 'Front-End',
-    text: 'I like UI/UX I like UI/UX I like UI/UX I like UI/UX',
+    text:
+      'This is the part I worked the most on! I have an excellent knowledge of JavaScript and how it works. Most of my projects are built with React and I manage my application states through Redux or React Context API ',
     items: [
       { name: 'JavaScript', url: 'js.svg' },
       { name: 'React', url: 'react.svg' },
@@ -26,7 +28,8 @@ const SKILLS = [
   },
   {
     title: 'Back-End',
-    text: 'I like UI/UX I like UI/UX I like UI/UX I like UI/UX',
+    text:
+      'My great sense of organization shines when building server side logic. I am familiar with RESTful API architecture using Node/Express and I can work with both SQL and NoSQL databases.',
     items: [
       { name: 'Node', url: 'node.png' },
       { name: 'SQL', url: 'sql.svg' },
@@ -35,7 +38,8 @@ const SKILLS = [
   },
   {
     title: 'Tools',
-    text: 'I like UI/UX I like UI/UX I like UI/UX I like UI/UX',
+    text:
+      'What could developers do without their tools? I am used to work on Linux, I actively use Git and GitHub and NPM is my favorite package manager.',
     items: [
       { name: 'NPM', url: 'npm.svg' },
       { name: 'Git', url: 'git.svg' },
