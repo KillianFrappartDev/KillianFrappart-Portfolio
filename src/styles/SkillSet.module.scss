@@ -46,3 +46,95 @@ $primary-color: #2196f3;
   height: 100px;
   margin: 0 1rem;
 }
+
+@media screen and (max-width: 992px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .cancel {
+    font-size: 1.6rem;
+    height: 25px;
+  }
+
+  .text {
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 1.2px;
+  }
+
+  .item {
+    width: 70px;
+    height: 70px;
+    margin: 0 0.8rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .cancel {
+    font-size: 1.6rem;
+    height: 25px;
+  }
+
+  .text {
+    font-size: 0.9rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .item {
+    width: 60px;
+    height: 60px;
+    margin: 0 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 1.6rem;
+  }
+
+  .cancel {
+    font-size: 1.4rem;
+    height: 22px;
+  }
+
+  .text {
+    font-size: 0.8rem;
+    line-height: 1.2;
+    letter-spacing: 0.8px;
+  }
+
+  .item {
+    width: 40px;
+    height: 40px;
+    margin: 0 0.6rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .cancel {
+    font-size: 1.4rem;
+    height: 22px;
+  }
+
+  .text {
+    font-size: 0.7rem;
+    line-height: 1.2;
+    letter-spacing: 0.8px;
+  }
+
+  .item {
+    width: 30px;
+    height: 30px;
+    margin: 0 0.5rem;
+  }
+}

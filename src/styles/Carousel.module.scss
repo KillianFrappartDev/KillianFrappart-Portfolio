@@ -1,0 +1,64 @@
+$primary-color: #2196f3;
+$secondary-color: #f50057;
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  color: #fff;
+  font-size: 5rem;
+  margin: 0 3rem;
+
+  &:hover {
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
+
+.wrapper {
+  position: relative;
+  width: 80%;
+}
+
+.image {
+  width: 100%;
+}
+
+.left,
+.right {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  transition: all 0.5s ease;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.left {
+  left: 0;
+
+  &:hover {
+    background-color: $primary-color;
+  }
+}
+
+.right {
+  right: 0;
+
+  &:hover {
+    background-color: $secondary-color;
+  }
+}

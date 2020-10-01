@@ -8,7 +8,7 @@ const SKILLS = [
   {
     title: 'UI/UX',
     text:
-      "I don't like designing myself but I have great integration skills, I prefer writing CSS code myself with CSS pre-processors (SCSS) than using CSS frameworks but I already worked with both Bootstrap and Material UI and I know how to implement and customize their components.",
+      'I have great integration skills, I prefer writing CSS code myself using SCSS but I already worked with both Bootstrap and Material UI and I know how to implement and customize their components.',
     items: [
       { name: 'HTML', url: 'html-5.svg' },
       { name: 'CSS', url: 'css.svg' },
