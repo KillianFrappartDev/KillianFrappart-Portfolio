@@ -90,7 +90,7 @@ $secondary-color: #f50057;
 .mobile {
   margin: 2rem 2rem;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   display: none;
 
   &:hover {
@@ -132,6 +132,14 @@ $secondary-color: #f50057;
 @media screen and (max-width: 600px) {
   .container {
     width: 100%;
+  }
+
+  .link {
+    font-size: 2.5rem;
+  }
+
+  .mobile {
+    font-size: 1.5rem;
   }
 
   .wrapper {

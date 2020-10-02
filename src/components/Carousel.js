@@ -31,22 +31,28 @@ const Carousel = (props) => {
           className={carouselStyles.image}
           src={props.items[current].imgURL}
         />
-        <div className={carouselStyles.left}>
-          <a className={carouselStyles.link}>
+        <a
+          href={props.items[current].live}
+          target="blank"
+          className={carouselStyles.left}>
+          <span className={carouselStyles.link}>
             <i className="fas fa-play"></i>
-          </a>
-        </div>
-        <div className={carouselStyles.right}>
-          <a className={carouselStyles.link}>
+          </span>
+        </a>
+        <a
+          href={props.items[current].code}
+          target="blank"
+          className={carouselStyles.right}>
+          <span className={carouselStyles.link}>
             <i className="fas fa-code"></i>
-          </a>
-        </div>
+          </span>
+        </a>
       </div>
       <div className={carouselStyles.mobileContainer}>
-        <a className={carouselStyles.mobile}>
+        <a onClick={prev} className={carouselStyles.mobile}>
           <i class="fas fa-arrow-left"></i>
         </a>
-        <a className={carouselStyles.mobile}>
+        <a onClick={next} className={carouselStyles.mobile}>
           <i class="fas fa-arrow-right"></i>
         </a>
       </div>
