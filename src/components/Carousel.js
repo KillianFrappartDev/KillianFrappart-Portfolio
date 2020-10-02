@@ -52,6 +52,12 @@ const Carousel = (props) => {
         <a onClick={prev} className={carouselStyles.mobile}>
           <i class="fas fa-arrow-left"></i>
         </a>
+        <a href={props.items[current].live} target="blank">
+          <button className={carouselStyles.live}>LIVE</button>
+        </a>
+        <a href={props.items[current].code} target="blank">
+          <button className={carouselStyles.code}>CODE</button>
+        </a>
         <a onClick={next} className={carouselStyles.mobile}>
           <i class="fas fa-arrow-right"></i>
         </a>
