@@ -41,6 +41,14 @@ const Carousel = (props) => {
             <i className="fas fa-code"></i>
           </a>
         </div>
+        <div className={carouselStyles.mobileContainer}>
+          <a className={carouselStyles.mobile}>
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <a className={carouselStyles.mobile}>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
       </div>
       <a onClick={next} className={carouselStyles.icon}>
         <i className="fas fa-chevron-right"></i>
